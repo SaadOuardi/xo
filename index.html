@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- CSS STYLING -->
+        <link rel="stylesheet" href="./CSS/style.css">
+        
+        <!-- WEB ICON -->
+        <link rel="shortcut icon" href="./IMG/game-logo.png" type="image/x-icon">
+        <!-- WEB TITLE -->
+        <title>X/O</title>
+    </head>
+    <body>
+
+        <main>
+
+            <h1 class="game__name">X/O GAME</h1>
+            <div class="game-settings">
+                <p class="timer__text">0:00</p>
+                <button class="start-btn" onclick="click()">START</button>
+                <button class="end-btn">RESET</button>
+            </div>
+            
+            <div class="game">
+                <div class="game__container">
+                    <button class="square"></button>
+                    <button class="square"></button>
+                    <button class="square"></button>
+                    <button class="square"></button>
+                    <button class="square"></button>
+                    <button class="square"></button>
+                    <button class="square"></button>
+                    <button class="square"></button>
+                    <button class="square"></button>
+                    
+                    <div class="winner__container">
+                        <h1 class="winner__message" id="winner__message">X WON</h1>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+    
+    <script src="./JS/script.js"></script>
+    </body>
+</html>
